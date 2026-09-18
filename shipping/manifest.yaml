@@ -39,7 +39,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image:  shirisha104/shipping:v1
+        image:  shirisha104/shipping:v2
         envFrom:
         - configMapRef:
             name: shipping
