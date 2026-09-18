@@ -14,10 +14,10 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-   name: catalogue
+   name: catalogue 
    namespace: roboshop
    # deployment labels
-   labels:
+   labels: 
      component: catalogue
      project: roboshop
      tier: app
@@ -32,7 +32,7 @@ spec:
        # this is pod definition
   template:
     metadata:
-       labels:
+       labels: 
          component: catalogue
          project: roboshop
          tier: app
