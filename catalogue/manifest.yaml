@@ -5,7 +5,7 @@ metadata:
   namespace: roboshop        
   labels:     
     component: catalogue       
-    project: roboshop   
+    project: roboshop    
     tier: app 
 data: 
    MONGO: "true"
