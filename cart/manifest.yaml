@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata: 
   name: cart 
   namespace: roboshop  
-  labels:    
+  labels:     
     component: cart     
     project: roboshop    
     tier: app 
