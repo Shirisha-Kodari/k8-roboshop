@@ -6,7 +6,7 @@ metadata:
   labels:   
     component: cart     
     project: roboshop    
-    tier: app
+    tier: app 
 data:  
   REDIS_HOST: "redis"  
   CATALOGUE_HOST: "catalogue"   
